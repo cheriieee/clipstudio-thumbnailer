@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/usr/local/bin/clipstudio-thumbnailer
+Exec=/usr/local/bin/clipstudio-thumbnailer %i %o %s
+MimeType=application/x-clip;image/x-clip;application/octet-stream;
