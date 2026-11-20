@@ -52,7 +52,9 @@ nemo -q  # Or nautilus -q, thunar -q
 
 ## Uninstall
 
-Because install.sh is run with sudo, check install.sh to verify the exact target paths used on your system before deleting files:
+Because install.sh is run with sudo, check install.sh to verify the exact target paths used on your system before deleting files.
+
+Remove the thumbnailer configuration and script/binary:
 ```bash
 sudo rm -i /usr/share/thumbnailers/*clip* /usr/local/bin/*clip* 2>/dev/null
 rm -i ~/.local/share/thumbnailers/*clip* ~/.local/bin/*clip* 2>/dev/null
